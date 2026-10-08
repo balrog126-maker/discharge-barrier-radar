@@ -1,0 +1,15 @@
+[theme]
+# The board is designed for a light clinical-dashboard look; custom CSS in ui.py
+# assumes this base.
+base = "light"
+primaryColor = "#111418"
+backgroundColor = "#F6F6F3"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#111418"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false

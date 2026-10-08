@@ -1,0 +1,520 @@
+{
+  "generated_at": "2026-09-28T21:24:22",
+  "model": "jev-1.13",
+  "granularity": "sentence",
+  "n_snippets": 214,
+  "n_units": 360,
+  "per_category": [
+    {
+      "category": "post_acute_placement",
+      "support": 20,
+      "tp": 20,
+      "fp": 2,
+      "fn": 0,
+      "precision": 0.9090909090909091,
+      "recall": 1.0,
+      "f1": 0.9523809523809523
+    },
+    {
+      "category": "payer_authorization",
+      "support": 17,
+      "tp": 16,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9411764705882353,
+      "f1": 0.9696969696969697
+    },
+    {
+      "category": "equipment_services",
+      "support": 17,
+      "tp": 16,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9411764705882353,
+      "f1": 0.9696969696969697
+    },
+    {
+      "category": "family_caregiver",
+      "support": 19,
+      "tp": 18,
+      "fp": 3,
+      "fn": 1,
+      "precision": 0.8571428571428571,
+      "recall": 0.9473684210526315,
+      "f1": 0.9
+    },
+    {
+      "category": "transport",
+      "support": 11,
+      "tp": 11,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "category": "clinical_pending",
+      "support": 19,
+      "tp": 10,
+      "fp": 0,
+      "fn": 9,
+      "precision": 1.0,
+      "recall": 0.5263157894736842,
+      "f1": 0.6896551724137931
+    },
+    {
+      "category": "legal_capacity",
+      "support": 11,
+      "tp": 10,
+      "fp": 2,
+      "fn": 1,
+      "precision": 0.8333333333333334,
+      "recall": 0.9090909090909091,
+      "f1": 0.8695652173913043
+    },
+    {
+      "category": "social_housing",
+      "support": 10,
+      "tp": 8,
+      "fp": 0,
+      "fn": 2,
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1": 0.888888888888889
+    },
+    {
+      "category": "other",
+      "support": 7,
+      "tp": 5,
+      "fp": 0,
+      "fn": 2,
+      "precision": 1.0,
+      "recall": 0.7142857142857143,
+      "f1": 0.8333333333333333
+    },
+    {
+      "category": "none",
+      "support": 103,
+      "tp": 102,
+      "fp": 8,
+      "fn": 1,
+      "precision": 0.9272727272727272,
+      "recall": 0.9902912621359223,
+      "f1": 0.9577464788732394
+    }
+  ],
+  "snippet_accuracy": {
+    "overall": {
+      "n": 214,
+      "correct": 192,
+      "accuracy": 0.897196261682243
+    },
+    "hard_subset": {
+      "n": 53,
+      "correct": 42,
+      "accuracy": 0.7924528301886793
+    },
+    "rest": {
+      "n": 161,
+      "correct": 150,
+      "accuracy": 0.9316770186335404
+    },
+    "by_tag": {
+      "negation": {
+        "n": 22,
+        "correct": 14,
+        "accuracy": 0.6363636363636364
+      },
+      "copy_forward": {
+        "n": 18,
+        "correct": 18,
+        "accuracy": 1.0
+      },
+      "hedged": {
+        "n": 14,
+        "correct": 11,
+        "accuracy": 0.7857142857142857
+      },
+      "multi_barrier": {
+        "n": 20,
+        "correct": 13,
+        "accuracy": 0.65
+      },
+      "chat_only": {
+        "n": 20,
+        "correct": 20,
+        "accuracy": 1.0
+      },
+      "stuck": {
+        "n": 16,
+        "correct": 14,
+        "accuracy": 0.875
+      },
+      "no_barrier": {
+        "n": 86,
+        "correct": 85,
+        "accuracy": 0.9883720930232558
+      }
+    }
+  },
+  "calibration": [
+    {
+      "bucket": "0.9\u20131.0",
+      "n": 243,
+      "mean_confidence": 0.9469135802469135,
+      "accuracy": 1.0
+    },
+    {
+      "bucket": "0.7\u20130.9",
+      "n": 74,
+      "mean_confidence": 0.8306756756756757,
+      "accuracy": 0.918918918918919
+    },
+    {
+      "bucket": "0.5\u20130.7",
+      "n": 39,
+      "mean_confidence": 0.5915384615384616,
+      "accuracy": 0.4358974358974359
+    },
+    {
+      "bucket": "< 0.5",
+      "n": 4,
+      "mean_confidence": 0.41,
+      "accuracy": 0.25
+    }
+  ],
+  "routes": [
+    {
+      "route": "auto_post",
+      "n": 243,
+      "accuracy": 1.0
+    },
+    {
+      "route": "needs_confirmation",
+      "n": 113,
+      "accuracy": 0.7522123893805309
+    },
+    {
+      "route": "review_queue",
+      "n": 4,
+      "accuracy": 0.25
+    }
+  ],
+  "secondary": {
+    "status": 0.6695652173913044,
+    "owner": 0.5478260869565217,
+    "escalation": 0.6347826086956522,
+    "n": 115
+  },
+  "readiness_accuracy": {
+    "all": 0.9672897196261683,
+    "stated_only": 0.9285714285714286,
+    "n_stated": 70
+  },
+  "board": {
+    "open_barriers": {
+      "tp": 36,
+      "fp": 10,
+      "fn": 1,
+      "precision": 0.782608695652174,
+      "recall": 0.972972972972973
+    },
+    "ready_but_blocked": {
+      "tp": 17,
+      "fp": 2,
+      "fn": 0,
+      "precision": 0.8947368421052632,
+      "recall": 1.0
+    },
+    "review_queue": 2
+  },
+  "usage": {
+    "chunks": 360,
+    "calls": 557,
+    "errors": 0,
+    "input_tokens": 437824,
+    "output_tokens": 66445,
+    "cost_usd": 0.018388608,
+    "avg_latency_ms": 140.15147504747864
+  },
+  "errors_sample": [
+    {
+      "snippet_id": "P-1003-d1-note",
+      "text": "Pt will require home O2; order sent to AirLife O2.",
+      "confidence": 0.5,
+      "route": "needs_confirmation",
+      "predicted": "equipment_services",
+      "correct": false,
+      "truth": [
+        "equipment_services"
+      ]
+    },
+    {
+      "snippet_id": "P-1003-d1-note",
+      "text": "GI signed off, no scope needed prior to dc.",
+      "confidence": 0.44,
+      "route": "review_queue",
+      "predicted": "none",
+      "correct": false,
+      "truth": [
+        "clinical_pending"
+      ]
+    },
+    {
+      "snippet_id": "P-1027-d2-note",
+      "text": "Neighbor agreed to care for dog; pt agreeable to dc.",
+      "confidence": 0.5,
+      "route": "needs_confirmation",
+      "predicted": "family_caregiver",
+      "correct": false,
+      "truth": [
+        "other"
+      ]
+    },
+    {
+      "snippet_id": "P-1034-d1-note",
+      "text": "Northstar HH has not yet accepted the HH referral.",
+      "confidence": 0.5,
+      "route": "needs_confirmation",
+      "predicted": "post_acute_placement",
+      "correct": false,
+      "truth": [
+        "equipment_services"
+      ]
+    },
+    {
+      "snippet_id": "P-1002-d0-note",
+      "text": "91F adm 9/5 w/ L MCA CVA.",
+      "confidence": 0.38,
+      "route": "review_queue",
+      "predicted": "post_acute_placement",
+      "correct": false,
+      "truth": [
+        "none"
+      ]
+    },
+    {
+      "snippet_id": "P-1006-d2-note",
+      "text": "GI signed off, no scope needed prior to dc.",
+      "confidence": 0.35,
+      "route": "review_queue",
+      "predicted": "none",
+      "correct": false,
+      "truth": [
+        "clinical_pending"
+      ]
+    },
+    {
+      "snippet_id": "P-1038-d2-note",
+      "text": "MRI still not read.",
+      "confidence": 0.61,
+      "route": "needs_confirmation",
+      "predicted": "none",
+      "correct": false,
+      "truth": [
+        "clinical_pending"
+      ]
+    },
+    {
+      "snippet_id": "P-1018-d3-note",
+      "text": "Son located with valid HCP document; consent obtained.",
+      "confidence": 0.54,
+      "route": "needs_confirmation",
+      "predicted": "none",
+      "correct": false,
+      "truth": [
+        "legal_capacity"
+      ]
+    },
+    {
+      "snippet_id": "P-1034-d3-note",
+      "text": "No alternative identified.",
+      "confidence": 0.5800000000000001,
+      "route": "needs_confirmation",
+      "predicted": "none",
+      "correct": false,
+      "truth": [
+        "equipment_services"
+      ]
+    },
+    {
+      "snippet_id": "P-1031-d0-note",
+      "text": "Pt will require home O2; order sent to Apex Medical Supply.",
+      "confidence": 0.53,
+      "route": "needs_confirmation",
+      "predicted": "equipment_services",
+      "correct": false,
+      "truth": [
+        "equipment_services"
+      ]
+    },
+    {
+      "snippet_id": "P-1007-d2-note",
+      "text": "Echo done, read pending.",
+      "confidence": 0.85,
+      "route": "needs_confirmation",
+      "predicted": "none",
+      "correct": false,
+      "truth": [
+        "clinical_pending"
+      ]
+    },
+    {
+      "snippet_id": "P-1033-d4-chat0",
+      "text": "tried the son again, no answer",
+      "confidence": 0.65,
+      "route": "needs_confirmation",
+      "predicted": "none",
+      "correct": false,
+      "truth": [
+        "family_caregiver"
+      ]
+    },
+    {
+      "snippet_id": "P-1029-d1-note",
+      "text": "94F adm 9/8 w/ CAP.",
+      "confidence": 0.5,
+      "route": "needs_confirmation",
+      "predicted": "legal_capacity",
+      "correct": false,
+      "truth": [
+        "none"
+      ]
+    },
+    {
+      "snippet_id": "P-1024-d2-note",
+      "text": "Clear to transfer.",
+      "confidence": 0.85,
+      "route": "needs_confirmation",
+      "predicted": "none",
+      "correct": false,
+      "truth": [
+        "payer_authorization"
+      ]
+    },
+    {
+      "snippet_id": "P-1012-d4-note",
+      "text": "60M adm 9/5 w/ CAP.",
+      "confidence": 0.55,
+      "route": "needs_confirmation",
+      "predicted": "legal_capacity",
+      "correct": false,
+      "truth": [
+        "none"
+      ]
+    },
+    {
+      "snippet_id": "P-1013-d3-note",
+      "text": "Escalated to CM leadership.",
+      "confidence": 0.73,
+      "route": "needs_confirmation",
+      "predicted": "none",
+      "correct": false,
+      "truth": [
+        "post_acute_placement"
+      ]
+    },
+    {
+      "snippet_id": "P-1031-d3-note",
+      "text": "No alternative identified.",
+      "confidence": 0.5900000000000001,
+      "route": "needs_confirmation",
+      "predicted": "none",
+      "correct": false,
+      "truth": [
+        "equipment_services"
+      ]
+    },
+    {
+      "snippet_id": "P-1030-d3-note",
+      "text": "MRI bumped for the third day in a row due to scanner queue.",
+      "confidence": 0.62,
+      "route": "needs_confirmation",
+      "predicted": "none",
+      "correct": false,
+      "truth": [
+        "clinical_pending"
+      ]
+    },
+    {
+      "snippet_id": "P-1022-d2-note",
+      "text": "MRI still not read.",
+      "confidence": 0.63,
+      "route": "needs_confirmation",
+      "predicted": "none",
+      "correct": false,
+      "truth": [
+        "clinical_pending"
+      ]
+    },
+    {
+      "snippet_id": "P-1001-d2-note",
+      "text": "Pt still declining dc; ongoing discussion with pt.",
+      "confidence": 0.65,
+      "route": "needs_confirmation",
+      "predicted": "none",
+      "correct": false,
+      "truth": [
+        "other"
+      ]
+    },
+    {
+      "snippet_id": "P-1001-d2-note",
+      "text": "Referrals sent to Oakview Nursing & Rehab and Maple Grove SNF.",
+      "confidence": 0.52,
+      "route": "needs_confirmation",
+      "predicted": "post_acute_placement",
+      "correct": false,
+      "truth": [
+        "post_acute_placement"
+      ]
+    },
+    {
+      "snippet_id": "P-1016-d2-note",
+      "text": "Echo reviewed, no change to plan \u2014 team clearing pt.",
+      "confidence": 0.71,
+      "route": "needs_confirmation",
+      "predicted": "none",
+      "correct": false,
+      "truth": [
+        "clinical_pending"
+      ]
+    },
+    {
+      "snippet_id": "P-1009-d1-note",
+      "text": "Summit Health Plan may require peer-to-peer before approving.",
+      "confidence": 0.61,
+      "route": "needs_confirmation",
+      "predicted": "none",
+      "correct": false,
+      "truth": [
+        "payer_authorization"
+      ]
+    },
+    {
+      "snippet_id": "P-1022-d3-note",
+      "text": "Echo done, read pending.",
+      "confidence": 0.85,
+      "route": "needs_confirmation",
+      "predicted": "none",
+      "correct": false,
+      "truth": [
+        "clinical_pending"
+      ]
+    },
+    {
+      "snippet_id": "P-1021-d4-note",
+      "text": "Escalated to CM leadership.",
+      "confidence": 0.75,
+      "route": "needs_confirmation",
+      "predicted": "none",
+      "correct": false,
+      "truth": [
+        "post_acute_placement"
+      ]
+    }
+  ]
+}

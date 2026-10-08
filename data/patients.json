@@ -1,0 +1,282 @@
+[
+  {
+    "patient_id": "P-1001",
+    "unit": "6 North",
+    "room": "4",
+    "admit_date": "2026-09-09",
+    "los_days": 4
+  },
+  {
+    "patient_id": "P-1002",
+    "unit": "5 East",
+    "room": "13",
+    "admit_date": "2026-09-05",
+    "los_days": 4
+  },
+  {
+    "patient_id": "P-1003",
+    "unit": "4 West",
+    "room": "3",
+    "admit_date": "2026-09-01",
+    "los_days": 4
+  },
+  {
+    "patient_id": "P-1004",
+    "unit": "Stepdown",
+    "room": "2",
+    "admit_date": "2026-09-02",
+    "los_days": 3
+  },
+  {
+    "patient_id": "P-1005",
+    "unit": "Stepdown",
+    "room": "15",
+    "admit_date": "2026-09-04",
+    "los_days": 4
+  },
+  {
+    "patient_id": "P-1006",
+    "unit": "5 East",
+    "room": "29",
+    "admit_date": "2026-09-03",
+    "los_days": 5
+  },
+  {
+    "patient_id": "P-1007",
+    "unit": "4 West",
+    "room": "2",
+    "admit_date": "2026-09-05",
+    "los_days": 4
+  },
+  {
+    "patient_id": "P-1008",
+    "unit": "4 West",
+    "room": "19",
+    "admit_date": "2026-09-02",
+    "los_days": 4
+  },
+  {
+    "patient_id": "P-1009",
+    "unit": "4 West",
+    "room": "20",
+    "admit_date": "2026-09-11",
+    "los_days": 5
+  },
+  {
+    "patient_id": "P-1010",
+    "unit": "6 North",
+    "room": "29",
+    "admit_date": "2026-09-09",
+    "los_days": 6
+  },
+  {
+    "patient_id": "P-1011",
+    "unit": "6 North",
+    "room": "21",
+    "admit_date": "2026-09-05",
+    "los_days": 4
+  },
+  {
+    "patient_id": "P-1012",
+    "unit": "5 East",
+    "room": "6",
+    "admit_date": "2026-09-05",
+    "los_days": 6
+  },
+  {
+    "patient_id": "P-1013",
+    "unit": "6 North",
+    "room": "29",
+    "admit_date": "2026-09-07",
+    "los_days": 5
+  },
+  {
+    "patient_id": "P-1014",
+    "unit": "5 East",
+    "room": "26",
+    "admit_date": "2026-09-03",
+    "los_days": 4
+  },
+  {
+    "patient_id": "P-1015",
+    "unit": "5 East",
+    "room": "22",
+    "admit_date": "2026-09-04",
+    "los_days": 4
+  },
+  {
+    "patient_id": "P-1016",
+    "unit": "Stepdown",
+    "room": "26",
+    "admit_date": "2026-09-10",
+    "los_days": 4
+  },
+  {
+    "patient_id": "P-1017",
+    "unit": "Stepdown",
+    "room": "30",
+    "admit_date": "2026-09-01",
+    "los_days": 6
+  },
+  {
+    "patient_id": "P-1018",
+    "unit": "5 East",
+    "room": "10",
+    "admit_date": "2026-09-04",
+    "los_days": 4
+  },
+  {
+    "patient_id": "P-1019",
+    "unit": "4 West",
+    "room": "22",
+    "admit_date": "2026-09-09",
+    "los_days": 4
+  },
+  {
+    "patient_id": "P-1020",
+    "unit": "5 East",
+    "room": "13",
+    "admit_date": "2026-09-10",
+    "los_days": 6
+  },
+  {
+    "patient_id": "P-1021",
+    "unit": "6 North",
+    "room": "20",
+    "admit_date": "2026-09-08",
+    "los_days": 5
+  },
+  {
+    "patient_id": "P-1022",
+    "unit": "5 East",
+    "room": "5",
+    "admit_date": "2026-09-09",
+    "los_days": 5
+  },
+  {
+    "patient_id": "P-1023",
+    "unit": "Stepdown",
+    "room": "18",
+    "admit_date": "2026-09-08",
+    "los_days": 6
+  },
+  {
+    "patient_id": "P-1024",
+    "unit": "Stepdown",
+    "room": "6",
+    "admit_date": "2026-09-07",
+    "los_days": 4
+  },
+  {
+    "patient_id": "P-1025",
+    "unit": "4 West",
+    "room": "8",
+    "admit_date": "2026-09-06",
+    "los_days": 4
+  },
+  {
+    "patient_id": "P-1026",
+    "unit": "4 West",
+    "room": "30",
+    "admit_date": "2026-09-03",
+    "los_days": 5
+  },
+  {
+    "patient_id": "P-1027",
+    "unit": "6 North",
+    "room": "20",
+    "admit_date": "2026-09-02",
+    "los_days": 4
+  },
+  {
+    "patient_id": "P-1028",
+    "unit": "5 East",
+    "room": "21",
+    "admit_date": "2026-09-06",
+    "los_days": 6
+  },
+  {
+    "patient_id": "P-1029",
+    "unit": "4 West",
+    "room": "6",
+    "admit_date": "2026-09-08",
+    "los_days": 4
+  },
+  {
+    "patient_id": "P-1030",
+    "unit": "Stepdown",
+    "room": "16",
+    "admit_date": "2026-09-08",
+    "los_days": 6
+  },
+  {
+    "patient_id": "P-1031",
+    "unit": "Stepdown",
+    "room": "9",
+    "admit_date": "2026-09-07",
+    "los_days": 5
+  },
+  {
+    "patient_id": "P-1032",
+    "unit": "5 East",
+    "room": "12",
+    "admit_date": "2026-09-10",
+    "los_days": 5
+  },
+  {
+    "patient_id": "P-1033",
+    "unit": "6 North",
+    "room": "15",
+    "admit_date": "2026-09-03",
+    "los_days": 5
+  },
+  {
+    "patient_id": "P-1034",
+    "unit": "5 East",
+    "room": "13",
+    "admit_date": "2026-09-04",
+    "los_days": 5
+  },
+  {
+    "patient_id": "P-1035",
+    "unit": "5 East",
+    "room": "6",
+    "admit_date": "2026-09-11",
+    "los_days": 5
+  },
+  {
+    "patient_id": "P-1036",
+    "unit": "5 East",
+    "room": "30",
+    "admit_date": "2026-09-11",
+    "los_days": 5
+  },
+  {
+    "patient_id": "P-1037",
+    "unit": "4 West",
+    "room": "29",
+    "admit_date": "2026-09-07",
+    "los_days": 5
+  },
+  {
+    "patient_id": "P-1038",
+    "unit": "6 North",
+    "room": "25",
+    "admit_date": "2026-09-04",
+    "los_days": 3
+  },
+  {
+    "patient_id": "P-1039",
+    "unit": "Stepdown",
+    "room": "2",
+    "admit_date": "2026-09-06",
+    "los_days": 4
+  },
+  {
+    "patient_id": "P-1040",
+    "unit": "6 North",
+    "room": "21",
+    "admit_date": "2026-09-07",
+    "los_days": 6
+  }
+]

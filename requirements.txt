@@ -1,0 +1,5 @@
+typesafe-sdk>=0.7.1
+streamlit>=1.60
+plotly>=7.0
+python-dateutil>=2.9
+pytest>=8.0
